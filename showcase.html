@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="NOVA multipurpose website">
+  <title>Showcase | NOVA</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/animations.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="topbar">
+    <div class="container topbar-inner">
+      <span>New: Explore our latest creative demos and components</span>
+      <a href="demos.html">View demos →</a>
+    </div>
+  </div>
+  <div class="container navbar">
+    <a class="logo" href="index.html">NOVA<span>.</span></a>
+    <button class="menu-toggle" aria-label="Open menu" aria-expanded="false">☰</button>
+    <nav class="nav-menu">
+      <a class="nav-link" data-page="index.html" href="index.html">Home</a>
+      <a class="nav-link" data-page="about.html" href="about.html">About</a>
+      <div class="nav-dropdown">
+        <a class="nav-link" href="services.html">Services</a>
+        <div class="dropdown-menu">
+          <a href="services.html">Web Design</a>
+          <a href="services.html#development">Development</a>
+          <a href="services.html#branding">Branding</a>
+          <a href="services.html#marketing">Marketing</a>
+        </div>
+      </div>
+      <div class="nav-dropdown">
+        <a class="nav-link" href="demos.html">Explore</a>
+        <div class="dropdown-menu">
+          <a href="demos.html">Demos</a>
+          <a href="elements.html">Elements</a>
+          <a href="features.html">Features</a>
+          <a href="portfolio.html">Portfolio</a>
+        </div>
+      </div>
+      <a class="nav-link" data-page="pricing.html" href="pricing.html">Pricing</a>
+      <div class="nav-dropdown">
+        <a class="nav-link" href="blog.html">Resources</a>
+        <div class="dropdown-menu">
+          <a href="blog.html">Blog</a>
+          <a href="faq.html">FAQ</a>
+          <a href="team.html">Team</a>
+        </div>
+      </div>
+      <a class="nav-link" data-page="contact.html" href="contact.html">Contact</a>
+    </nav>
+    <div class="header-actions">
+      <a class="btn btn-primary" href="contact.html">Get Started</a>
+    </div>
+  </div>
+</header>
+
+<main>
+<section class="page-hero"><div class="container"><div class="breadcrumbs"><a href="index.html">Home</a> / Showcase</div><h1>Interactive showcase.</h1><p>A dedicated page demonstrating the reusable JavaScript slider.</p></div></section>
+<section class="section"><div class="container">
+<div data-slider class="card" style="min-height:380px;padding:45px">
+<div class="slide"><span class="eyebrow">SLIDE 01</span><h2>Creative direction.</h2><p>Use large visual storytelling blocks to introduce a product or campaign.</p></div>
+<div class="slide" hidden><span class="eyebrow">SLIDE 02</span><h2>Business direction.</h2><p>Present services, proof, numbers, and clear conversion paths.</p></div>
+<div class="slide" hidden><span class="eyebrow">SLIDE 03</span><h2>Product direction.</h2><p>Combine product features, interface previews, and pricing information.</p></div>
+<div style="display:flex;gap:8px;margin-top:50px"><button class="btn btn-outline" data-prev>← Previous</button><button class="btn btn-primary" data-next>Next →</button></div>
+</div></div></section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a class="logo" href="index.html">NOVA<span>.</span></a>
+        <p>A flexible multipurpose digital experience built with clean HTML, external CSS, and modular JavaScript.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Company</h4>
+        <a href="about.html">About</a><a href="team.html">Team</a><a href="services.html">Services</a><a href="contact.html">Contact</a>
+      </div>
+      <div class="footer-col">
+        <h4>Explore</h4>
+        <a href="demos.html">Demos</a><a href="elements.html">Elements</a><a href="portfolio.html">Portfolio</a><a href="features.html">Features</a>
+      </div>
+      <div class="footer-col">
+        <h4>Resources</h4>
+        <a href="blog.html">Blog</a><a href="faq.html">FAQ</a><a href="pricing.html">Pricing</a><a href="login.html">Login</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 NOVA. All rights reserved.</span>
+      <span>Built with HTML · CSS · JavaScript</span>
+    </div>
+  </div>
+</footer>
+<button class="back-to-top" aria-label="Back to top">↑</button>
+
+<script src="js/navigation.js"></script>
+<script src="js/script.js"></script>
+<script src="js/slider.js"></script>
+<script src="js/filters.js"></script>
+<script src="js/forms.js"></script>
+</body>
+</html>
