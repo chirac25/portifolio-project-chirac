@@ -1,0 +1,15 @@
+/* =========================================================
+   NOVA — ANIMATION UTILITIES
+   Only reusable keyframes and animation helpers live here.
+   ========================================================= */
+
+.pulse { animation: pulse 2.2s infinite; }
+.float { animation: float 4s ease-in-out infinite; }
+
+@keyframes pulse {
+    50% { transform: scale(1.035); }
+}
+
+@keyframes float {
+    50% { transform: translateY(-12px); }
+}

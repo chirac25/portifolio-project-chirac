@@ -1,0 +1,24 @@
+/* =========================================================
+   NOVA — RESPONSIVE OVERRIDES
+   Small device-specific refinements.
+   Main responsive grid rules remain grouped at the bottom
+   of style.css so related component rules stay together.
+   ========================================================= */
+
+@media (max-width: 700px) {
+    .hero h1 {
+        font-size: clamp(2.8rem, 14vw, 4.5rem);
+    }
+
+    .hero-actions .btn {
+        width: 100%;
+    }
+
+    .floating-card.one {
+        left: 20px;
+    }
+
+    .floating-card.two {
+        right: 20px;
+    }
+}
